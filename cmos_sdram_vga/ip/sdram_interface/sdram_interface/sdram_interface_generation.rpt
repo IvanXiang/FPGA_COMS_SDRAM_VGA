@@ -1,0 +1,38 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\class8\cmos_sdram_vga\ip\sdram_interface\sdram_interface.qsys --block-symbol-file --output-directory=D:\class8\cmos_sdram_vga\ip\sdram_interface\sdram_interface --family="Cyclone IV E" --part=EP4CE6F17C8
+Progress: Loading sdram_interface/sdram_interface.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sdram_interface.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\class8\cmos_sdram_vga\ip\sdram_interface\sdram_interface.qsys --synthesis=VERILOG --output-directory=D:\class8\cmos_sdram_vga\ip\sdram_interface\sdram_interface\synthesis --family="Cyclone IV E" --part=EP4CE6F17C8
+Progress: Loading sdram_interface/sdram_interface.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sdram_interface.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: sdram_interface: Generating sdram_interface "sdram_interface" for QUARTUS_SYNTH
+Info: sdram_controller: Starting RTL generation for module 'sdram_interface_sdram_controller'
+Info: sdram_controller:   Generation command is [exec D:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga/18.1/quartus/bin64/perl/lib -I D:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga/18.1/quartus/sopc_builder/bin -I D:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=sdram_interface_sdram_controller --dir=C:/Users/AWCLOU~1/AppData/Local/Temp/alt9065_6166676507846622174.dir/0002_sdram_controller_gen/ --quartus_dir=D:/intelfpga/18.1/quartus --verilog --config=C:/Users/AWCLOU~1/AppData/Local/Temp/alt9065_6166676507846622174.dir/0002_sdram_controller_gen//sdram_interface_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'sdram_interface_sdram_controller'
+Info: sdram_controller: "sdram_interface" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: rst_controller: "sdram_interface" instantiated altera_reset_controller "rst_controller"
+Info: sdram_interface: Done "sdram_interface" with 3 modules, 5 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
